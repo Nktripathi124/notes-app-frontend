@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { LogIn, LogOut, Plus, Edit3, Trash2, Crown, CheckCircle } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+//const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+const API_BASE_URL = 'https://notes-app-backend-pj5oaanjn-nktripathis-projects.vercel.app';
 
 const App = () => {
   const [user, setUser] = useState(null);
