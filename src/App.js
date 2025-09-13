@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { LogIn, LogOut, Plus, Edit3, Trash2, Crown, CheckCircle } from 'lucide-react';
-const API_BASE_URL = 'https://notes-app-backend-brown.vercel.app/api'
 
+// FIXED: Removed /api from the URL
+const API_BASE_URL = 'https://notes-app-backend-brown.vercel.app'
 
 const App = () => {
   const [user, setUser] = useState(null);
